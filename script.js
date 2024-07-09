@@ -18,9 +18,21 @@ function draw() {
   angleMode(DEGREES)
   rectMode(CENTER)
 
+  /*hair
+  fill("black")
+  rect(width/2,260,200,160)
+  ellipse(136,118,100,200)*/
+
+  //ears
+  fill("#914e24")
+  ellipse(106,192,30,50)
+  ellipse(294,192,30,50)
+
+  
   //Face
   fill("#914e24")
   ellipse(width/2,height/2,175,200)
+  
 
   //eyes
   fill("white")
@@ -36,6 +48,7 @@ function draw() {
   fill("#914e24")
   strokeWeight(3)
   arc(200,230,30,50,0,180)
+
 
   //text
   fill("red")
