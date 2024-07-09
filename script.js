@@ -12,6 +12,7 @@ function setup() {
   createCanvas(400,400); 
 
   //sets the background color
+  
   background("#e8e1ba"); 
 }
 
